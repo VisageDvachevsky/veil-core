@@ -6,10 +6,10 @@
 # of VEIL Server on Ubuntu/Debian systems.
 #
 # Usage:
-#   curl -sSL https://raw.githubusercontent.com/VisageDvachevsky/VEIL/main/install_veil.sh | sudo bash
+#   curl -sSL https://raw.githubusercontent.com/VisageDvachevsky/veil-core/main/install_veil.sh | sudo bash
 #
 # Or download and run manually:
-#   wget https://raw.githubusercontent.com/VisageDvachevsky/VEIL/main/install_veil.sh
+#   wget https://raw.githubusercontent.com/VisageDvachevsky/veil-core/main/install_veil.sh
 #   chmod +x install_veil.sh
 #   sudo ./install_veil.sh
 #
@@ -26,7 +26,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Configuration variables
-VEIL_REPO="${VEIL_REPO:-https://github.com/VisageDvachevsky/VEIL.git}"
+VEIL_REPO="${VEIL_REPO:-https://github.com/VisageDvachevsky/veil-core.git}"
 VEIL_BRANCH="${VEIL_BRANCH:-main}"
 INSTALL_DIR="/usr/local"
 CONFIG_DIR="/etc/veil"
