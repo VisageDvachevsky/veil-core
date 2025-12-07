@@ -6,6 +6,8 @@
 #include <optional>
 #include <string>
 #include <vector>
+#include <memory>
+
 
 namespace veil::session {
 
